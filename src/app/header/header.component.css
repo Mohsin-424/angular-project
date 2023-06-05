@@ -1,0 +1,6 @@
+.navbar-expand-md .navbar-nav .nav-link{
+  padding-right:initial;
+}
+li a:hover{
+  background-color: rgb(236, 7, 225);
+}
