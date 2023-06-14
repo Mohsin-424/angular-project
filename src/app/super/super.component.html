@@ -1,8 +1,10 @@
 <button class="btn-btn-warning"(click)="OnChoose('stakeholder')">Stakeholder</button>
 <button class="btn-btn-primary"(click)="OnChoose('issue')">Issue</button>
-<button class="btn-btn-primary"(click)="OnChoose('task')">Task</button>
+<button class="btn-btn-success"(click)="OnChoose('task')">Task</button>
 
 <app-stakeholder *ngIf="choosenOption==='stakeholder'" [data]="data.stakeholder"></app-stakeholder>
+
 <app-issue *ngIf="choosenOption==='issue'" [data]="data.issue"></app-issue>
+
 <app-task *ngIf="choosenOption==='task'" [data]="data.task"></app-task>
 

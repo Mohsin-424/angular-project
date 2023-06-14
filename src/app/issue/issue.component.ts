@@ -7,6 +7,6 @@ import { Component,Input } from '@angular/core';
 })
 export class IssueComponent {
 @Input() data: any[]=[];
-// @Input() chosenissue:string = '';
+
 
 }

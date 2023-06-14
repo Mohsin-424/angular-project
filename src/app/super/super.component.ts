@@ -6,7 +6,7 @@ import { Component} from '@angular/core';
   styleUrls: ['./super.component.css'],
 })
 export class SuperComponent {
-choosenOption!:string;
+choosenOption! : string ;
 
 data={
   'stakeholder':['Mohsin','Nouman','Usman'],
@@ -14,7 +14,7 @@ data={
   'issue':['issue1','issue2','issue3']
      }
 
-  OnChoose( option : string){
+  OnChoose( option : string) {
     this.choosenOption = option;
                            }
 }
